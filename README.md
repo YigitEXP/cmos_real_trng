@@ -37,6 +37,15 @@ To ensure fluid UI responsiveness without stalling or crashing the underlying di
 
 ---
 
+## 🔭 Roadmap
+- [ ] Statistical validation via NIST SP 800-22 test suite
+- [ ] Von Neumann bias correction / post-processing
+- [ ] Shift register-based byte packing
+- [ ] UART interface for external bit streaming
+- [ ] Target FPGA board synthesis & on-hardware validation
+
+---
+
 ## 📦 Project Directory Structure
 
 ```text
