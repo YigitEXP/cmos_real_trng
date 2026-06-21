@@ -51,14 +51,14 @@ To ensure fluid UI responsiveness without stalling or crashing the underlying di
 ```text
 .
 ├── README.md           # Documentation
-├── src/                # RTL Source Files
-│   ├── cmos_not.v      # Behavioral delay-inverter block
-│   ├── ring_osc.v      # Multi-stage ring oscillator wire-mesh
-│   └── top_module.v    # Top hardware layer (Sampling & Sync Reset)
+├── assets/             # Implementation & Schematic Images
+│   ├── rtl_schematic.png
+│   ├── synth_design_1.png
+│   └── synth_design_2.png
 ├── sim/                # Verification / Simulation Layer
 │   ├── runner.py       # CoCoTb execution entry point
 │   └── testbench.py    # Tkinter GUI & Async verification loop
-└── assets/             # Implementation & Schematic Images
-    ├── rtl_schematic.png
-    ├── synth_design_1.png
-    └── synth_design_2.png
+└── src/                # RTL Source Files
+    ├── cmos_not.v      # Behavioral delay-inverter block
+    ├── ring_osc.v      # Multi-stage ring oscillator wire-mesh
+    └── top_module.v    # Top hardware layer (Sampling & Sync Reset)
